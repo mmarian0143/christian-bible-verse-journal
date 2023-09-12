@@ -1,12 +1,11 @@
-<h2>Your Journal Entries</h2>
-<div *ngFor="let entry of entries">
-  <mat-card>
-    <mat-card-header>
-      <mat-card-title>{{ entry.title }}</mat-card-title>
-      <mat-card-subtitle>{{ entry.date | date: 'medium' }}</mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <p>{{ entry.content }}</p>
-    </mat-card-content>
-  </mat-card>
-</div>
+<div class="container">
+    <h2>Journal Entries</h2>
+    <ul>
+      <li *ngFor="let entry of entries">
+        <h3>{{ entry.title }}</h3>
+        <p>{{ entry.content }}</p>
+        <p>Date: {{ entry.date }}</p>
+      </li>
+    </ul>
+  </div>
+  
