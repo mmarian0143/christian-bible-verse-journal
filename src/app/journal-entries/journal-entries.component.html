@@ -6,6 +6,9 @@
         <div class="card-body">
           <h5 class="card-title">{{ entry.Title }}</h5>
           <p class="card-text">Date: {{ entry.Date }}</p>
+
+          <button class="btn btn-primary mr-2" (click)="editEntry(entry)">Edit</button>
+          <button class="btn btn-danger" (click)="deleteEntry(entry)">Delete</button>
         </div>
       </div>
     </div>

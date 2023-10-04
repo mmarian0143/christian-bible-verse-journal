@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { JournalEntriesComponent } from './journal-entries/journal-entries.component';
 import { CreateEntryComponent } from './create-entry/create-entry.component';
 import { HttpClientModule } from '@angular/common/http';
+import { EditEntryComponent } from './edit-entry/edit-entry.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HttpClientModule } from '@angular/common/http';
     RegisterComponent,
     LoginComponent,
     JournalEntriesComponent,
-    CreateEntryComponent
+    CreateEntryComponent,
+    EditEntryComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-journal-entries',
@@ -9,7 +10,7 @@ import { HttpClient } from '@angular/common/http';
 export class JournalEntriesComponent implements OnInit {
   entries: any[] = [];
 
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient,  private router: Router) {}
 
   ngOnInit() {
     // Fetch journal entries from the server using HTTP GET
@@ -22,5 +23,27 @@ export class JournalEntriesComponent implements OnInit {
         console.error('Error fetching journal entries:', error);
       }
     );
+  }
+  
+  // Method to handle editing a journal entry
+  editEntry(entry: any) {
+    const entryId = entry.EntryID; 
+    this.router.navigate(['/edit-entry', entryId]); 
+  }
+
+  // Method to handle deleting a journal entry
+  deleteEntry(entry: any) {
+    const entryId = entry.EntryID; 
+
+    // Make an HTTP DELETE request to delete the entry
+    this.http.delete(`http://localhost:3000/journal-entries/${entryId}`)
+      .subscribe(
+        () => {
+          this.entries = this.entries.filter(e => e.EntryID !== entryId);
+        },
+        (error) => {
+          console.error('Error deleting journal entry:', error);
+        }
+      );
   }
 }

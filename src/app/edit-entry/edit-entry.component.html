@@ -1,0 +1,19 @@
+<div class="container mt-4">
+    <h2>Edit Journal Entry</h2>
+    <form (submit)="updateEntry()">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" [(ngModel)]="entry.Title" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="content">Content</label>
+        <textarea id="content" name="content" [(ngModel)]="entry.Content" class="form-control" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="date">Date</label>
+        <input type="date" id="date" name="date" [(ngModel)]="entry.Date" class="form-control" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Update Entry</button>
+    </form>
+  </div>
+  

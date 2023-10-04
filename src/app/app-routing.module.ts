@@ -4,6 +4,8 @@ import { RegisterComponent } from './register/register.component';
 import { LoginComponent } from './login/login.component';
 import { JournalEntriesComponent } from './journal-entries/journal-entries.component';
 import { CreateEntryComponent } from './create-entry/create-entry.component';
+import { EditEntryComponent } from './edit-entry/edit-entry.component';
+import { FormsModule } from '@angular/forms';
 
 const routes: Routes = [
   { path: '', redirectTo: '/journal-entries', pathMatch: 'full' },
@@ -11,6 +13,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'journal-entries', component: JournalEntriesComponent },
   { path: 'create-entry', component: CreateEntryComponent },
+  { path: 'edit-entry/:id', component: EditEntryComponent },
 ];
 
 @NgModule({
