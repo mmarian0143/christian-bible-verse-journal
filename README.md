@@ -18,11 +18,6 @@ User Authentication
    Responsive Design
    - Ensure the application is accessible on various devices.
 
-
-Initial Database Design:
- ![Picture1](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/4310e869-dc86-4c2a-8928-3963db657103)
-
- 
 Risks:
 1. Database Performance
    - Ensuring the database can handle increased user activity and data growth.
@@ -33,3 +28,13 @@ Risks:
 4. External API Integrations
    - Potential challenges in integrating external APIs for Bible verse data.
 
+UI Screenshots of Application
+![Picture2](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/0b72cc05-5854-412f-897b-adc1067f67e9)
+
+![Picture3](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/40a274c5-edab-45a4-bbba-07ae04316bbd)
+
+![Picture4](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/3c2a2d4d-2976-4a68-9ffc-8a1cc4604f2c)
+
+![Picture5](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/b27af0fb-a30e-4088-9f07-93994a724f2d)
+
+![Picture6](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/8db22950-5918-4bdd-b7eb-526ee9b6e1ca)
