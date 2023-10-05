@@ -1,27 +1,35 @@
 # ChristianBibleVerseJournal
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.1.
+Introduction: The Christian Bible Verse Journal is a web application designed to facilitate spiritual reflection and growth by allowing users to journal their thoughts, reflections, and prayers related to specific Bible verses. This document outlines the functionality, design, and technical aspects of the proposed application.
 
-## Development server
+Functionality Requirements:
+User Authentication
+   - Users can register an account and log in.
+   - Passwords are securely hashed and stored.
+ Bible Verse Database
+   - Maintain a collection of Bible verses with text and references.
+   Verse Journaling
+   - Users can select a Bible verse, write reflections, and save entries.
+   - Each entry includes a title, content, and date.
+   View Entries
+   - Users can view their journal entries in chronological order.
+   Search and Filter
+   - Users can search for entries based on keywords, dates, or verses.
+   Responsive Design
+   - Ensure the application is accessible on various devices.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Initial Database Design:
+ ![Picture1](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/4310e869-dc86-4c2a-8928-3963db657103)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ 
+Risks:
+1. Database Performance
+   - Ensuring the database can handle increased user activity and data growth.
+2. Cross-Browser Compatibility
+   - Ensuring the application functions smoothly on different web browsers.
+3. Learning Curve for React
+   - Familiarity with React for the second frontend may impact development time.
+4. External API Integrations
+   - Potential challenges in integrating external APIs for Bible verse data.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
