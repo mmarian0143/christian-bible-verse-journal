@@ -1,4 +1,4 @@
-# ChristianBibleVerseJournal
+# Christian Bible Verse Journal Application
 
 Introduction: The Christian Bible Verse Journal is a web application designed to facilitate spiritual reflection and growth by allowing users to journal their thoughts, reflections, and prayers related to specific Bible verses. This document outlines the functionality, design, and technical aspects of the proposed application.
 
