@@ -32,7 +32,7 @@ Risks:
 
 UI Screenshots of Application
 
-![Picture7](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/362b2c31-21cf-41a5-94d0-4a36ec42a354)
+![Picture8](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/d05e417a-51e3-4265-b952-01f256200088)
 
 ![Picture2](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/0b72cc05-5854-412f-897b-adc1067f67e9)
 
