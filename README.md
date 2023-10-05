@@ -18,6 +18,7 @@ User Authentication
    Responsive Design
    - Ensure the application is accessible on various devices.
 
+
 Risks:
 1. Database Performance
    - Ensuring the database can handle increased user activity and data growth.
@@ -27,6 +28,7 @@ Risks:
    - Familiarity with React for the second frontend may impact development time.
 4. External API Integrations
    - Potential challenges in integrating external APIs for Bible verse data.
+
 
 UI Screenshots of Application
 
