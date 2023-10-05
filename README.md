@@ -29,6 +29,9 @@ Risks:
    - Potential challenges in integrating external APIs for Bible verse data.
 
 UI Screenshots of Application
+
+![Picture7](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/362b2c31-21cf-41a5-94d0-4a36ec42a354)
+
 ![Picture2](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/0b72cc05-5854-412f-897b-adc1067f67e9)
 
 ![Picture3](https://github.com/mmarian0143/christian-bible-verse-journal/assets/82545182/40a274c5-edab-45a4-bbba-07ae04316bbd)
